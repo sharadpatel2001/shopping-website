@@ -1,3 +1,38 @@
-p {
+.confirmation {
   display: none;
+}
+
+p {
+  background-image: url(../img/confirm.png);
+  background-size: cover;
+  height: 300px;
+  width: 500px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Cherry Swash', cursive;
+  text-align: center;
+  padding-top: 40px;
+  color: #5FC6EE;
+}
+
+h3 {
+  font-family: 'Cherry Swash', cursive;
+}
+
+#specify {
+  font-family: 'Cherry Swash', cursive;
+  font-size: 80px;
+  color: #540C0C;
+  background-color: #9DBABA;
+}
+
+body {
+  background-color: #E1EAEA;
+}
+form {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.btn {
+  margin: 20px;
 }
