@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.1.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <title>Online Shopping</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="jumbotron bg-alert">The New Etsy</h1>
+
+          <h5>Enter your information to order:</h5>
+          <form>
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input id="name" class="form-control" type="text" placeholder="Full Name here">
+          </div>
+
+          <div class="form-group">
+            <label for="address">Your Address</label>
+            <input type="text" class="form-control" id="address">
+          </div>
+
+          <div id="jewelry">
+            <h5>Jewelry item you'd like to buy:</h5>
+            <div class="radio">
+              <label><input type="radio" name="jewelry" value="necklace">
+                Necklace
+              </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="jewelry" value="earrings">
+                Earrings
+              </label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="jewelry" value="bracelet">
+                Bracelets
+              </label>
+            </div>
+          </div>
+
+          <div>
+            <h5>Shoe item you'd like to buy:</h5>
+            <select class="form-control" id="shoes">
+              <option>Ballet shoes</option>
+              <option>Stilettos</option>
+              <option>Pumps</option>
+              <option>Booties</option>
+            </select>
+          </div>
+
+
+
+          <button type="submit" class="btn">Submit!</button>
+          </form>
+
+          <div class="confirmation">
+            <p>Thank you, <span class="name"></span>, for making a purchase! We will ship your <span class="jewelry"></span> and <span class="shoes"></span> to <span class="address"></span>.</p>
+          </div>
+
+
+
+      </div>
+  </body>
+</html>
